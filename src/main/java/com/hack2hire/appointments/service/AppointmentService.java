@@ -68,6 +68,7 @@ public class AppointmentService {
 			timeslot.setStatus(timeslotDB.getStatus());
 			timeslot.setTimeSlotId(timeslotDB.getId());
 			appointmentSlots.add(timeslot);
+			System.out.println("commited....");
 		}
 	
 		return appointmentSlots;
